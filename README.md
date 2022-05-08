@@ -1,4 +1,5 @@
 # gyrolinalg
+NumPy-based gyrovector calculation library based on Poincare disk with Mobius gyrostructure.
 
 ## Usage
 

@@ -1,0 +1,9 @@
+Pipfile.lock
+
+__pycache__
+
+.ipynb_checkpoints
+
+.venv
+
+gyro.ipynb

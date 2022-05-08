@@ -4,7 +4,7 @@ NumPy-based gyrovector calculation library based on Poincare disk with Mobius gy
 ## Usage
 
 ### 設定
-次元や disk の半径 (1/C) を [gyrolinalg/constant.py](https://github.com/somisawa/gyrolinalg/blob/main/gyrolinalg/constant.py) で設定しよう
+次元やdiskの半径(1/C)を [gyrolinalg/constant.py](https://github.com/somisawa/gyrolinalg/blob/main/gyrolinalg/constant.py) で設定しよう
 
 ### ジャイロベクタの作成
 
@@ -46,5 +46,5 @@ print(gLA.exp(v, b))
 print(gLA.log(v, w))
 # array([-0.13907259, -0.29359769])
 ```
-※ なんか log expを計算しても厳密に元と一致しない。実装ミス？数値的な話？
-ただし，小さい　C で計算すると Euclidean ケースの指数・対数写像に一致するので実装間違ってないと思うんだよな。
+※ なんかlog expを計算しても厳密に元と一致しない。実装ミス？数値的な話？
+ただし，小さいCで計算するとEuclideanケースの指数・対数写像に一致するので実装間違ってないと思うんだよな。
